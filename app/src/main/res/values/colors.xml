@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#262728</color>
+    <color name="colorPrimaryDark">#263d54</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="green">#6af285</color>
+    <color name="orange">#f4de11</color>
+    <color name="black">#000</color>
+    <color name="white">#FFF</color>
+    <color name="gray">#e2e0cc</color>
+
+    <color name="black_overlay">#66000000</color>
+    <string-array name="card_color">
+        <item>#f4551a</item>
+        <item>#f4d61a</item>
+        <item>#a3ef15</item>
+        <item>#14efa9</item>
+        <item>#14bbef</item>
+        <item>#ce14ef</item>
+        <item>#ef1488</item>
+        <item>#ef1414</item>
+    </string-array>
+</resources>

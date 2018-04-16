@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="1dp"
+    >
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/bacsmall"
+        android:scaleType="centerCrop"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Upload Doc file"
+        android:textSize="32dp"
+        android:textAlignment="center"
+        android:textColor="@color/orange"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/sea"/>
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="Status : File Not Found on Server"
+        android:ems="10"
+        android:gravity="center"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/editText"
+        android:visibility="invisible"/>
+
+    <Button
+        android:text="Upload File to server"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="54dp"
+        android:background="@drawable/buttonbg"
+        android:id="@+id/button2"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_below="@+id/editText"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="Select file TO Upload"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/buttonbg"
+        android:layout_above="@+id/editText"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="62dp" />
+
+    <TextView
+        android:id="@+id/msg"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:textColor="@color/orange"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:layout_marginBottom="30dp" />
+
+</RelativeLayout>

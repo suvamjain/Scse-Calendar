@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="2dp"
+    android:background="@drawable/cardbg"
+    android:elevation="5dp">
+
+
+    <TextView
+        android:id="@+id/card_date"
+        android:layout_width="55dp"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="22nd" />
+
+    <TextView
+        android:id="@+id/card_day"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+
+        android:paddingBottom="2dp"
+        android:paddingTop="2dp"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="@+id/card_details"
+        app:layout_constraintEnd_toStartOf="@+id/card_details"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/card_date"
+        tools:text="Tue" />
+
+    <LinearLayout
+        android:id="@+id/card_details"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="5dp"
+        android:minHeight="90dp"
+        android:orientation="vertical"
+        android:padding="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/card_date"
+        app:layout_constraintTop_toTopOf="@+id/card_date"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+</android.support.constraint.ConstraintLayout>
